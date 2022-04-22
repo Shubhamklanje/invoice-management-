@@ -1,38 +1,122 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imageone{
+  float: left;
+  padding: 1%;
+  height: 10%;
+  width: 15%;
+}
+.imagetwo{
+  width: 15%;
+  padding: 1%;
+  height: 10%;
+  margin-left: -15%;
+}
+.foot{
+  text-align: center;
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TableGrid {
+  max-height: 469px;
+  padding: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.MuiDataGrid-columnSeparator {
+  visibility: hidden;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.MuiDataGrid-root .MuiDataGrid-cell {
+  color: #f0f0f0;
+  font-weight: normal;
+}
+
+.MuiDataGrid-root .MuiCheckbox-root {
+  color: #f0f0f0;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader {
+  color: #f0f0f0;
+}
+.addcomponents {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 15px;
+}
+
+.MuiTablePagination-selectLabel {
+  color: #f0f0f0;
+}
+
+.MuiTablePagination-displayedRows {
+  color: #f0f0f0;
+}
+
+.MuiSvgIcon-root {
+  color: #f0f0f0;
+}
+
+.MuiDataGrid-selectedRowCount {
+  color: #f0f0f0;
+}
+
+.addbutton {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.editibuttons {
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.editcol {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.advancesearch{
+  flex-direction: column;
+}
+
+.advancesearchcol {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 15px;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+  color: white !important;
+}
+
+.MuiSelect-icon {
+  color: white !important;
+}
+
+.analyzecurr {
+  text-align: center;
+}
+
+.MuiCheckbox-root {
+  color: black !important;
+}
+
+.MuiSvgIcon-root {
+  color:white;
+  background-color:rgba(45,66,80,255);
+}
+
+.barchart {
+  text-align: center;
 }
